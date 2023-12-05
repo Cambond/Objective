@@ -9,6 +9,7 @@ from keras.layers import *
 from keras.regularizers import l2
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 
+#model tuning
 def build(hp): 
     image_size_x=75
     image_size_y=75
